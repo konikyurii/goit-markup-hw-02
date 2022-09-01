@@ -1,0 +1,149 @@
+body{
+    font-family: 'Roboto';
+    color: #212121;  
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+
+.menu-nav{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: inherit;
+}
+
+.menu-nav:hover,
+.menu-nav:focus{
+    color: #2196F3;
+}
+
+.menu-contact{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+
+.menu-contact:hover,
+.menu-contact:focus {
+    color: #2196F3;
+}
+
+.hero-section{
+    background-color: #2F303A;
+}
+
+.main-title{
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 696px;
+}
+
+.order-button{
+    width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 430px;
+        background-color: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            color: #FFFFFF;
+}
+
+.benefits-subtitle{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: inherit;
+}
+
+.benefits-desc{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: inherit;
+}
+
+.team-section{
+    background-color: #F5F4FA;;
+}
+
+.team-subtitle{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: inherit;
+}
+
+.team-desc{
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+footer{
+    background-color: #2F303A;;
+}
+
+.address-map{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+
+.address-contact{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.address-map:hover,
+.address-map:focus {
+    color: #2196F3;
+}
+
+.address-contact:hover,
+.address-contact:focus {
+    color: #2196F3;
+}
