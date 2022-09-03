@@ -1,14 +1,8 @@
 body{
-    font-family: 'Roboto';
-    color: #212121;  
-}
-
-a{
-    text-decoration: none;
-}
-
-ul{
-    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;   
+    background-color: #FFFFFF;
 }
 
 .logo{
@@ -21,7 +15,11 @@ ul{
         color: #2196F3;
 }
 
-.menu-nav{
+.studio{
+    color: #000;
+}
+
+.header-item-nav{
     font-weight: 500;
         font-size: 14px;
         line-height: 16px;
@@ -29,12 +27,12 @@ ul{
         color: inherit;
 }
 
-.menu-nav:hover,
-.menu-nav:focus{
+.header-item-nav:hover,
+.header-item-nav:focus{
     color: #2196F3;
 }
 
-.menu-contact{
+.header-item-contact{
     font-weight: 500;
         font-size: 14px;
         line-height: 16px;
@@ -42,8 +40,8 @@ ul{
         color: #757575;
 }
 
-.menu-contact:hover,
-.menu-contact:focus {
+.header-item-contact:hover,
+.header-item-contact:focus {
     color: #2196F3;
 }
 
@@ -75,6 +73,19 @@ ul{
             font-size: 16px;
             line-height: 30px;
             color: #FFFFFF;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #188CE8;
+}
+
+.visually-hidden{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: 1px;
 }
 
 .benefits-subtitle{
@@ -120,30 +131,34 @@ ul{
         color: #757575;
 }
 
-footer{
+.footer{
     background-color: #2F303A;;
 }
 
-.address-map{
+.footer-studio{
+    color: #FFFFFF;
+}
+
+.footer-item-map{
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
 }
 
-.address-contact{
+.footer-item-contact{
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
 
-.address-map:hover,
-.address-map:focus {
+.footer-item-map:hover,
+.footer-item-map:focus {
     color: #2196F3;
 }
 
-.address-contact:hover,
-.address-contact:focus {
+.footer-item-contact:hover,
+.footer-item-contact:focus {
     color: #2196F3;
 }
