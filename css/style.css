@@ -5,6 +5,7 @@
     --fourth-color: #2F303A;
     --fifth-color: #F5F4FA; 
     --sixth-color: #188CE8;
+    --seventh-color: rgba(255, 255, 255, 0.6);
     --acent-color: #2196F3;
     --black-color: #000000;
 }
@@ -13,6 +14,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
     background-color: var(--third-color);
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -24,11 +26,10 @@ a{
 }
 
 .logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        letter-spacing: 0.03em;
         color: var(--acent-color);
 }
 
@@ -42,6 +43,10 @@ a{
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: inherit;
+}
+
+.current{
+    color: var(--acent-color);
 }
 
 .header-item-nav:hover,
@@ -74,7 +79,6 @@ a{
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--third-color);
-        width: 696px;
 }
 
 .order-button{
@@ -107,13 +111,11 @@ a{
     font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
-        letter-spacing: 0.03em;
 }
 
 .benefits-desc{
         font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03em;
         color: var(--secondary-color);
 }
 
@@ -121,24 +123,25 @@ a{
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
-        letter-spacing: 0.03em;
 }
 
 .team-section{
     background-color: var(--fifth-color);
 }
 
+.card{
+    background-color: var(--third-color);
+}
+
 .team-subtitle{
     font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
-        letter-spacing: 0.03em;
 }
 
 .team-desc{
         font-size: 16px;
         line-height: 1.18;
-        letter-spacing: 0.03em;
         color: var(--secondary-color);
 }
 
@@ -154,7 +157,6 @@ a{
         font-size: 14px;
         line-height: 1.71;
         font-style: normal;
-        letter-spacing: 0.03em;
         color: var(--third-color);
 }
 
@@ -162,8 +164,7 @@ a{
         font-size: 14px;
         line-height: 1.71;
         font-style: normal;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+        color: var(--seventh-color);
 }
 
 .footer-item-map:hover,
@@ -197,6 +198,16 @@ a{
                 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.project-subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+}
+
 .project-desc{
+    font-size: 16px;
+    line-height: 1.87;
     color: var(--secondary-color);
 }
